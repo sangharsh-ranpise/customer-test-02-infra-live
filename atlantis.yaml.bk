@@ -1,0 +1,7 @@
+version: 3
+projects:
+  - name: xdr-content
+    dir: azure/prod/westus/rg2/xdr-content/module
+    autoplan:
+      when_modified: ["*.tf", "*.tfvars", "*.tf.json"]
+      enabled: true
