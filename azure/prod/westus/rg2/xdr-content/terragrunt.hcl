@@ -4,5 +4,5 @@ terraform {
 }
 
 inputs = {
-  my_number = 523
+  my_number = 524
 }
